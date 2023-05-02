@@ -1,0 +1,110 @@
+/* =====Logo Style===== */
+
+.logo-1 {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.sa {
+  font-size: 2.5rem;
+  color: var(--sa-color);
+}
+
+.far {
+  font-size: 1.5rem;
+  padding-top: 24px;
+  color: var(--far-color);
+}
+
+
+/* =====Footer=====  */
+
+.footer-x {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  height: fit-content;
+  background-color: var(--footer-color);
+}
+
+
+/* =====Footer Navigations=====  */
+
+.foot-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.foot-links1 {
+  display: flex;
+  gap: 1rem;
+}
+
+.foot-nav a,
+.foot-nav a:visited {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.foot-nav a:hover,
+.foot-nav a:active {
+  color: var(--helper-color);
+}
+
+
+/* =====Social Media===== */
+
+.socio {
+  margin-top: 20px;
+}
+
+.socio a,
+.socio a:visited {
+  color: var(--helper-color);
+}
+
+.socio a:hover,
+.socio a:active {
+  color: var(--white);
+}
+
+
+/* =====Copyrights=====  */
+
+.copyright>p {
+  margin-top: 1rem;
+  color: var(--white);
+}
+
+
+/* =====Codes For Responsiveness===== */
+
+@media screen and (max-width: 960px) {
+
+  /* =====logo style===== */
+
+  .sa {
+    font-size: 2.5rem;
+    color: var(--sa-color);
+  }
+
+  .far {
+    font-size: 1.5rem;
+    padding-top: 20.59px;
+    color: var(--far-color);
+  }
+
+  /* =====footer navigations===== */
+  .foot-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .foot-links1 {
+    display: flex;
+    gap: 0.5rem;
+  }
+}

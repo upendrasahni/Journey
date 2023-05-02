@@ -1,0 +1,177 @@
+/* =====Main Section Background===== */
+
+.intro {
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../../assets/background-main2.jpg");
+  min-width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.intro-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* =====Main Text===== */
+
+.saf-1 {
+  font-size: 5rem;
+  color: var(--white);
+  margin-bottom: 0.6rem;
+  font-weight: 400;
+  display: block;
+  font-family: 'Sono', sans-serif;
+}
+
+
+/* =====Explore Button===== */
+
+.explore {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.explore-btn {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--explore-btn);
+  backdrop-filter: blur(10px);
+  width: fit-content;
+  padding: 1rem;
+}
+
+.explore-btn ion-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: var(--white);
+  padding-right: 10px;
+}
+
+.explore a:link,
+.explore a:visited {
+  text-decoration: none;
+  color: var(--bg-color);
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+}
+
+.explore a:hover,
+.explore a:visited {
+  color: var(--primary-shades);
+}
+
+
+/* =====Services Section===== */
+/* #services{
+  background-color: var(--bg-color);
+} */
+.services {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.services p {
+  text-align: justify;
+  padding: 0.5rem;
+  /* color: var(--primary-shades); */
+}
+
+.services img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.bino, .tick, .map-loc {
+  height: 20rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* =====Code For Responsiveness===== */
+
+@media(max-width: 600px) {
+
+  /* =====main section background ===== */
+
+  .intro {
+    height: 98vh;
+  }
+
+  /* =====main text===== */
+
+  .saf-1 {
+    font-size: 1.5rem;
+  }
+
+  /* =====explore button===== */
+
+  .explore {
+    padding-bottom: 3rem;
+  }
+
+  .explore-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--explore-btn);
+    backdrop-filter: blur(10px);
+    width: fit-content;
+    padding: 1rem;
+  }
+
+  .explore a:link,
+  .explore a:visited {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+  }
+
+  .explore a:hover,
+  .explore a:visited {
+    color: var(--primary-shades);
+  }
+
+/* =====services section===== */
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    margin: 12rem 0;
+  }
+
+  .services img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .bino, .tick, .map-loc {
+    height: 8rem;
+    margin-top: 1rem;
+  }
+}

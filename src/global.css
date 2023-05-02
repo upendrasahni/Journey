@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+/* <<<<<=====Light Mode Colors=====>>>>> */
+
+.light-mode {
+  --bg-color: #e6e6eb;
+  /* --bg-color: #15202B; */
+  --primary-color: #000f71;
+  --helper-color: #0327c6;
+  --para-color: #80849c;
+  --primary-shades: #00020b;
+  --white: #fff;
+  --card-color:#eaeaea;
+  --places-color: #ffff;
+
+
+  /* LOGO====== */
+  --sa-color: #000f71;
+  --far-color: #0327c6;
+
+  /* RGBAs===== */
+  --navbar-mini: rgba(255, 255, 255, 0.2);
+  --explore-btn: rgba(0, 89, 255, 0.521);
+
+  /* BANNERS===== */
+  --about-fade: #000f71;
+  --card-shadow: rgba(0, 0, 0, 0.4);
+  --contact-fade: #2e2e2e;
+
+
+  /* OTHERS===== */
+  --footer-color: #000422;
+  --follow-btn: #ffffff;
+  --desti-cardhover:#000000b6;
+  /* --desti-cardhover:#ffffff4b; */
+
+}
+
+/* <<<<<=====Dark Mode Colors=====>>>>> */
+
+.dark-mode {
+  --bg-color: #15202B;
+  --primary-color: #6db6f0;
+  --helper-color: #48a4ec;
+  --para-color: #80849c;
+  --primary-shades: #edf6fd;
+  --white: #fff;
+  --card-color:#22303C;
+  --places-color: #b8dfff;
+
+
+  /* LOGO====== */
+  --sa-color: #48a4ec;
+  --far-color: #b8dfff;
+
+  /* RGBAs===== */
+  --navbar-mini: rgba(105, 105, 105, 0.1);
+  --explore-btn: rgba(0, 14, 40, 0.521);
+
+  /* BANNERS===== */
+  --about-fade: #000f71;
+  --card-shadow: rgba(0, 0, 0, 0.4);
+  --contact-fade: #2e2e2e;
+
+
+  /* OTHERS===== */
+  --footer-color: #000422;
+  --follow-btn: #ffffff;
+  --desti-cardhover:#ffffff4b;
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  color: var(--primary-shades);
+}
+.background-color{
+  background-color: var(--bg-color);
+}

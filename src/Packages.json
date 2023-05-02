@@ -1,0 +1,213 @@
+[
+  {
+
+        "title": "North-India Packages",
+        "pack_id": 1,
+        "places": [
+          {
+            "id": 1,
+            "place": "Devprayag",
+            "location": "Devprayag,Uttrakhand",
+            "description": "Devprayag is one of the beutiful spots to visit in north india. It is the sangam of two rivers Bhagirati and alaknanda which makes it more beautiful.",
+            "duration": "8 Day 9 Night ",
+            "price": "10999",
+            "img": "devprayag"
+          },
+          {
+            "id": 2,
+            "place": "Badrinath",
+            "location": "Badrinath, Uttrakhand",
+            "description": "Badrinath Temple is devoted to Lord Badrinath. It is situated in Uttrakhand, India. It is one of the Char Dham Pilgrimage in India",
+            "duration": "11 Days 10 Nights",
+            "price": " 11999",
+            "img": "badrinath.jpeg"
+          },
+          {
+            "id": 3,
+            "place": "Kedarnath",
+            "location": "Kedarkantha Trek, Uttrakhand",
+            "description": "Kedarkantha (Hindi: केदारकंठ) is a mountain peak of the Himalayas in Uttarakhand, India. Its elevation is 12,500 ft (3,800 m).Kedarkantha is located within Govind Wildlife Sanctuary in Uttarkashi district.A trek to the peak of Kedarkantha usually starts from Sankri, a small village, and takes four days to complete.There are several myths around Kedarkantha and Juda ka Talab, a high altitude lake.",
+            "duration": "13 Days 14 Nights",
+            "price": "17999",
+            "img": ""
+          },
+          {
+            "id": 4,
+            "place": "Tugnath",
+            "location": "Tungnath, Uttarakhand",
+            "description": "Tungnath is one of the highest Shiva temples in the world and is the highest of the five Panch Kedar temples located in the Rudraprayag district, in the Indian state of Uttarakhand. The Tungnath mountains form the Mandakini and Alaknanda river valleys.",
+            "duration": "11 Days 12 Nights",
+            "price": "14999",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "title": "West-India Packages",
+        "pack_id": 2,
+        "places": [
+          {
+            "id": 5,
+            "place": "Nalsarovar",
+            "location": "Nalsarovar,Gujarat",
+            "description": "Nal Sarovar Bird Sanctuary, consisting primarily of a 120.82-square-kilometre lake and ambient marshes, is situated about 64 km to the west of Ahmedabad near Sanand Village, in the Gujarat state of India.",
+            "duration": "3 Days 4 Nights",
+            "price": " 5999",
+            "img": ""
+          },
+          {
+            "id": 6,
+            "place": "Harihar",
+            "location": "Harihar Fort, Maharastra",
+            "description": "Harihar fort / Harshagad is a fort located 40 km from Nashik City, 48 km from Igatpuri, 40 km from Ghoti in Nashik district, of Maharashtra, India. It is an important fort in Nashik district, and was constructed to look upon the trade route through Gonda Ghat.",
+            "duration": "5 Days 4 Nights",
+            "price": "10299",
+            "img": ""
+          },
+          {
+            "id": 7,
+            "place": "Bahubali Hills",
+            "location": "Bahubali Hills, Udaipur",
+            "description": "Bahubali Hills is one of the beautiful places to visit in Udaipur, Rajasthan. It is the part of the Aravalli Range and famous for its surrounding view.",
+            "duration": "3 Days 4 Nights",
+            "price": " 7999",
+            "img": ""
+          },
+          {
+            "id": 8,
+            "place": "Kumbhalgarh",
+            "location": "Kumbhalgarh, Rajasthan",
+            "description": "Chilika lake is one of the most attractive places in Orissa. This lake is the largest coastal lagoon in India and has been listed as a UNESCO World Heritage site.",
+            "duration": "4 Days 5 Nights",
+            "price": "6999",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "title": "South-India Packages",
+        "pack_id": 3,
+        "places": [
+          {
+            "id": 9,
+            "place": "Jatayu Statue",
+            "location": "Jatayu Statue, Kerala",
+            "description": "Jatayu Earth Center, also known as Jatayu Nature Park or Jatayu Rock, is a park and tourism centre at Chadayamangalam in Kollam district of Kerala. It stands at an altitude of 350m above the mean sea level. Jatayu Nature Park holds the distinction of having the world's largest bird sculpture, which is of Jatayu.",
+            "duration": "11 Days 10 Nights",
+            "price": "1399",
+            "img": ""
+          },
+          {
+            "id": 10,
+            "place": "Rameshwaram",
+            "location": "Rameshwaram, Tamilnadu",
+            "description": "Ramanathaswamy Temple is a Hindu temple dedicated to the god Shiva located on Rameswaram island in the state of Tamil Nadu, India. It is also one of the twelve Jyotirlinga temples. It is one of the 275 Paadal Petra Sthalams, where three of the most revered Nayanars, Appar, Sundarar and Tirugnana Sambandar, have glorified the temple with their songs.",
+            "duration": "11 Days 10 Nights",
+            "price": "1299",
+            "img": ""
+          },
+          {
+            "id": 11,
+            "place": "Tirupati Balaji",
+            "location": "Tirupati Balaji, Andrapradesh",
+            "description": "Tirupati is a city in the Indian state of Andhra Pradesh. Its Sri Venkateswara Temple sits atop one of the the 7 peaks of Tirumala Hills, attracting scores of Hindu pilgrims. Sri Venkateswara National Park, home to the temple, also contains the Sri Venkateswara Zoological Park with lions and primates.",
+            "duration": "9 Days 8 Nights",
+            "price": "7499",
+            "img": ""
+          },
+          {
+            "id": 12,
+            "place": "Meenakshi Temple",
+            "location": "Meenakshi Temple, Tamilnadu",
+            "description": "Arulmigu Meenakshi Sundaraswarar Temple is a historic Hindu temple located on the southern bank of the Vaigai River in the temple city of Madurai, Tamil Nadu, India. It is dedicated to the goddess Meenakshi, a form of Shakti, and her consort, Sundareshwarar, a form of Shiva.",
+            "duration": "8 Days 7 Nights",
+            "price": "9999",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "title": "East-India Packages",
+        "pack_id": 4,
+        "places": [
+          {
+            "id": 13,
+            "place": "Darjeeling",
+            "location": "Darjeeling, West Bengal",
+            "description": "Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite, it remains the terminus of the narrow-gauge Darjeeling Himalayan Railway, or “Toy Train,” completed in 1881. It's famed for the distinctive black tea grown on plantations that dot its surrounding slopes.",
+            "duration": "13 Days 14 Nights",
+            "price": "16999",
+            "img": ""
+          },
+          {
+            "id": 14,
+            "place": "Konark Sun Temple",
+            "location": "Sun Temple, Orissa",
+            "description": "Konark Sun temple, is Dedicated to the Hindu Sun God Surya, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone.",
+            "duration": "10 Days 9 Nights",
+            "price": "10499",
+            "img": ""
+          },
+          {
+            "id": 15,
+            "place": "Jagannath Puri",
+            "location": "Jagannath puri, Orissa",
+            "description": "The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu one of the trinity of supreme divinity in Hinduism. Puri is in the state of Odisha, on the eastern coast of India.",
+            "duration": "8 Days 7 Nights",
+            "price": "7999",
+            "img": ""
+          },
+          {
+            "id": 16,
+            "place": "Chilika Lake",
+            "location": "Chilika, Orissa",
+            "description": "Chilika lake is one of the most attractive places in Orissa. This lake is the largest coastal lagoon in India and has been listed as a UNESCO World Heritage site.",
+            "duration": "11 Days 12 Nights",
+            "price": "11999",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "title": "Central-India Packages",
+        "pack_id": 5,
+        "places": [
+          {
+            "id": 17,
+            "place": "Gwalior Fort",
+            "location": "Gwalior, Madhya Pradesh",
+            "description": "The Gwalior Fort commonly known as the Gwāliiyar Qila, is a hill fort near Gwalior, Madhya Pradesh, India. The fort has existed at least since the 10th century, and the inscriptions and monuments found within what is now the fort campus indicate that it may have existed as early as the beginning of the 6th century.",
+            "duration": "6 Days 5 Nights",
+            "price": "5999",
+            "img": ""
+          },
+          {
+            "id": 18,
+            "place": "Kailash Temple",
+            "location": "Kailash Temple, Maharastra",
+            "description": "The Kailasha (IAST: Kailāśa) or Kailashanatha (IAST: Kailāśanātha) temple is the largest of the rock-cut Hindu temples at the Ellora Caves, Chhatrapati Sambhajinagar District, Maharashtra, India. A megalith carved from a rock cliff face, it is considered as one of the most remarkable cave temples in the world because of its size, architecture and sculptural treatment,and the climax of the rock-cut phase of Indian architecture.",
+            "duration": "7 Days 6 Nights",
+            "price": "10999",
+            "img": ""
+          },
+          {
+            "id": 19,
+            "place": "Golden Temple",
+            "location": "Golden Temple, Amritsar",
+            "description": "The Golden Temple also known as the Harmandir Sahib, lit.'abode of God', Punjabi pronunciation:the Darbār Sahib, 'exalted court', is a gurdwara located in the city of Amritsar, Punjab, India.It is the preeminent spiritual site of Sikhism. It is one of the holiest sites in Sikhism, alongside the Gurdwara Darbar Sahib Kartarpur in Kartarpur, and Gurdwara Janam Asthan in Nankana Sahib.",
+            "duration": "8 Days 7 Nights",
+            "price": "8899",
+            "img": ""
+          },
+          {
+            "id": 20,
+            "place": "Lal Chowk",
+            "location": "Lal Chowk, Kashmir",
+            "description": "Lal Chowk is a city square in Srinagar, Jammu and Kashmir, India. The square was given its name by left-wing activists who were inspired by the Russian Revolution as they fought the princely state's Maharaja, Hari Singh.",
+            "duration": "11 Days 12 Nights",
+            "price": "14999",
+            "img": ""
+          }
+        ]
+  }
+]

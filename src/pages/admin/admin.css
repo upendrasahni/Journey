@@ -1,0 +1,11 @@
+.btn{
+    padding-inline: 0.5rem;
+    padding-block: 0;
+    margin: 0;
+}
+.dlt-btn ion-icon{
+    margin-top: 5px;
+    padding: 0;
+    height: 1.2rem;
+    width: 1.2rem;
+}

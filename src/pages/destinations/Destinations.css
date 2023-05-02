@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Roboto+Mono:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.whole{
+    background-color: var(--bg-color);
+}
+.imagica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cen{
+    position: absolute;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "Lobster", cursive;
+    letter-spacing: 3px;
+}
+.dest-fade{
+    position: relative;
+    opacity: 0.1;
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 15px;
+    padding-top: 50px;
+    color: var(--white);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.ok {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ok:hover{
+    border-radius: 30px;
+    transform: scale(1.05);
+    transition: 0.2s;
+    box-shadow: 8px 10px 30px var(--desti-cardhover);
+}
+.about-banner img{
+    height: 40vh;
+    width: auto;
+    filter: brightness(50%);
+    position: absolute;
+}
+.abc12{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desti-banner-text{
+    position: absolute;
+    font-size: 4.5rem;
+    font-weight: 600;
+    padding-top: 50px;
+    color: var(--white);
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    z-index: 2;
+}
+@media (max-width:1680px) {
+    .imagica{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .ok {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cen{
+        position: absolute;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2.3rem;
+        font-family: "Lobster", cursive;
+        letter-spacing: 3px;
+    }
+    .whole{
+        display: block;
+        /* margin-top: 6rem; */
+        padding-bottom: 3rem;
+    }
+    .dest-fade{
+        font-size: 13em;
+        letter-spacing: normal;
+        width: 100%;
+        text-align: center;
+    }
+    .abc1{
+        align-items:center;
+    }
+    .img img{
+        width: 40vh;
+        height: 60vh;
+        border-radius: 10px;
+        filter: brightness(70%);
+        position: relative;
+    }
+}
+@media (max-width:1250px) {
+    .imagica{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ok {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cen{
+        position: absolute;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+        font-family: "Lobster", cursive;
+        letter-spacing: 3px;
+    }
+    .whole{
+        display: block;
+        /* margin-top: 6rem; */
+        padding-bottom: 3rem;
+    }
+    .dest-fade{
+        font-size: 11em;
+        letter-spacing: normal;
+        width: 100%;
+        text-align: center;
+    }
+    .abc1{
+        align-items:center;
+    }
+    .img img{
+        width: 35vh;
+        height: 60vh;
+        border-radius: 10px;
+        filter: brightness(70%);
+        position: relative;
+    }
+}
+@media (max-width:1023px) {
+    .imagica{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ok {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cen{
+        position: absolute;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.3rem;
+        font-family: "Lobster", cursive;
+        letter-spacing: 3px;
+    }
+    .whole{
+        display: block;
+        /* margin-top: 6rem; */
+    }
+    .dest-fade{
+        font-size: 8em;
+        letter-spacing: normal;
+        width: 100%;
+        text-align: center;
+    }
+    .abc1{
+        align-items:center;
+    }
+    .img img{
+        width: 25vh;
+        height: 40vh;
+        border-radius: 10px;
+        filter: brightness(70%);
+        position: relative;
+    }
+}
+@media (max-width:800px) {
+    .imagica{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ok {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cen{
+        position: absolute;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.5rem;
+        font-family: "Lobster", cursive;
+        letter-spacing: 3px;
+    }
+    .whole{
+        display: block;
+        /* margin-top: 6rem; */
+    }
+    .dest-fade{
+        font-size: 5.2em;
+        letter-spacing: normal;
+        width: 100%;
+        text-align: center;
+    }
+    .abc1{
+        align-items:center;
+
+    }
+    .img img{
+        width: 15vh;
+        height: 25vh;
+        border-radius: 10px;
+        filter: brightness(70%);
+        position: relative;
+    }
+}
+@media (max-width:500px) {
+    .imagica{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0rem;
+    }
+    .ok {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cen{
+        position: absolute;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        font-family: "Lobster", cursive;
+        letter-spacing: 3px;
+    }
+    .whole{
+        display: block;
+        /* margin-top: 1rem; */
+    }
+    .dest-fade{
+        font-size: 3.7em;
+        letter-spacing: normal;
+        padding-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .abc12{
+        align-items:center;
+        height: 29vh;
+    }
+    .desti-banner-text{
+        position: absolute;
+        font-size: 1rem;
+        font-weight: 600;
+        padding-top: 0;
+        color: var(--white);
+        text-transform: capitalize;
+        letter-spacing: 10px;
+        z-index: 2;
+    }
+    .img img{
+        width: 30vh;
+        height: 45vh;
+        border-radius: 10px;
+        filter: brightness(70%);
+        position: relative;
+    }
+}

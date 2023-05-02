@@ -1,0 +1,508 @@
+/* =====Banner===== */
+
+.contact-banner img {
+  height: 50vh;
+  width: 100%;
+  position: absolute;
+}
+
+.abcd {
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* fadded background text */
+.contact-fade {
+  position: relative;
+  font-size: 12rem;
+  font-weight: 1000;
+  opacity: 0.3;
+  color: var(--contact-fade);
+  text-transform: uppercase;
+  letter-spacing: 40px;
+}
+
+/* front visible text */
+.contact-banner-text {
+  position: absolute;
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: var(--white);
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  z-index: 2;
+}
+
+
+/* =====Contact Form Main===== */
+
+.ola {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+  padding-top: 80px;
+}
+
+
+/* =====Contact Info Card 1===== */
+.card1 {
+  height: 28rem;
+  width: 20rem;
+  background-color: rgb(3, 39, 198, 0.4);
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.card1 h1 {
+  padding-bottom: 3rem;
+
+}
+
+
+/* =====Send A Message Card 2===== */
+.card2 {
+  height: 35rem;
+  width: 60rem;
+  background-color: rgba(0, 34, 255, 0.126);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.form55 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.info11 ion-icon {
+  color: var(--helper-color);
+}
+
+.card2 h1 {
+
+  padding-bottom: 3.5rem;
+  color: var(--primary-color);
+}
+
+.effect {
+  border: 0;
+  height: 1rem;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--primary-shades) !important;
+  background-color: rgb(0, 0, 0, 0);
+}
+
+.ola label {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+:focus {
+  outline: none;
+}
+
+
+/* necessary to give position: relative to parent. */
+input[type="text"] {
+  font: 15px/24px;
+  color: var(--primary-shades);
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.effect {
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--primary-shades);
+}
+
+.effect~.focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4caf50;
+  transition: 0.4s;
+}
+
+.effect:focus~.focus-border {
+  width: 100%;
+  transition: 0.4s;
+}
+
+/* =====Social Icons===== */
+
+.mk {
+  padding-top: 50px;
+
+}
+
+.mk ion-icon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.mk ion-icon:hover {
+  color: var(--white);
+}
+
+.sub button {
+  height: 2rem;
+  width: 5rem;
+  padding: 3px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+
+}
+
+.sub button:hover {
+  transform: scale(1.2);
+  transition: all 200ms ease-in-out;
+  background-color: var(--helper-color);
+}
+
+.sub button p {
+  color: var(--white);
+}
+
+
+
+/* =====Codes For Responsiveness===== */
+
+@media (max-width:800) {
+  .contact-banner img {
+    height: 45vh;
+    width: 100%;
+    position: absolute;
+  }
+
+  .abcd {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-fade {
+    position: relative;
+    font-size: 12rem;
+    font-weight: 1000;
+    opacity: 0.3;
+    color: var(--contact-fade);
+    text-transform: uppercase;
+    letter-spacing: 40px;
+  }
+
+  .contact-banner-text {
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    z-index: 2;
+  }
+
+  .ola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 100%;
+  }
+
+  .card1 {
+    height: 28rem;
+    width: 20rem;
+    background-color: rgb(3, 39, 198, 0.4);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .card1 h1 {
+    padding-bottom: 3rem;
+
+  }
+
+
+  .card2 {
+    height: 35rem;
+    width: 10rem;
+    background-color: rgb(120, 135, 164, 0.4);
+    backdrop-filter: blur(15px);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+  }
+
+  .form55 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* color: rgb(11, 11, 123); */
+  }
+
+  .form55 .a {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .info11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+
+  .card2 h1 {
+    padding-bottom: 3.5rem;
+  }
+
+  .effect {
+    border: 0;
+    padding: 7px 0;
+  }
+
+  .ola label {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  :focus {
+    outline: none;
+  }
+
+  .col-3 {
+    float: left;
+    width: 27.33%;
+    margin: 40px 3%;
+    position: relative;
+  }
+
+  /* necessary to give position: relative to parent. */
+  input[type="text"] {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+  }
+
+  .effect,
+  .effect-2,
+  .effect-3 {
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #251d6d;
+  }
+
+  .effect~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4caf50;
+    transition: 0.4s;
+  }
+
+  .effect:focus~.focus-border {
+    width: 100%;
+    transition: 0.4s;
+  }
+
+
+  .mk {
+    padding-top: 50px;
+
+  }
+
+  .mk ion-icon {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+  /* =====Banner===== */
+
+  .contact-banner img {
+    height: 45vh;
+    width: 100%;
+    position: absolute;
+  }
+
+  .abcd {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* fadded background text */
+  .contact-fade {
+    position: relative;
+    font-size: 3.7rem;
+    font-weight: 1000;
+    opacity: 0.3;
+    color: var(--contact-fade);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  /* front visible text */
+  .contact-banner-text {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+    /* margin-top: 3rem; */
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    z-index: 2;
+  }
+
+  .ola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 8px;
+  }
+
+
+  .card1 {
+    height: 15rem;
+    width: 8rem;
+    /* background-color: rgb(3, 39, 198, 0.4); */
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    font-size: 2px;
+
+  }
+
+  .card1 h1 {
+    padding-bottom: 0;
+    padding-top: 2rem;
+    font-size: 1rem;
+
+  }
+
+  .card1 h1 p {
+    font-size: 10px;
+  }
+
+  .card2 {
+    height: 20rem;
+    width: 17rem;
+    background-color: rgb(120, 135, 164, 0.4);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    font-size: 0.5rem;
+  }
+
+  .mk {
+    padding-top: 0px;
+  }
+
+  .mk ion-icon {
+    font-size: 0.7rem;
+    margin-top: 5px;
+
+  }
+
+  .form55 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+    color: rgb(11, 11, 79);
+    margin-left: 88px;
+    font-size: 0.3rem;
+    height: 12rem;
+    width: 8rem
+  }
+
+  .ola label {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  .card2 h1 {
+
+    padding-bottom: 2rem;
+    margin-left: 66px;
+    font-size: 1rem;
+    padding-top: 4rem;
+  }
+
+  .info11 {
+    font-size: 10px;
+    margin-top: 20px;
+
+  }
+
+  .effect {
+    border: 0;
+    height: 5px;
+    padding: 7px 0;
+  }
+
+  .sub button {
+    height: 1rem;
+    width: 3rem;
+    border-radius: 7px;
+  }
+
+}
